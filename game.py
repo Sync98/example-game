@@ -4,7 +4,7 @@ from settings import settings
 def run_game():
     pygame.init()
     gm_settings = settings()
-#shows screen
+#shows screen1
     screen = pygame.display.set_mode([gm_settings.screen_width, gm_settings.screen_height])
     pygame.display.set_caption(gm_settings.caption)
 
