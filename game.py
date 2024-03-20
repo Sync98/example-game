@@ -2,7 +2,7 @@ import pygame
 from settings import settings
 from player import Player
 import game_functions as gf
-
+#Hello test
 def run_game():
     pygame.init()
     gm_settings = settings()
